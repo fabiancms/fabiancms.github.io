@@ -1,28 +1,602 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabian Medina | Data Analyst</title>
+
+    <title>Fabián Medina | Data Analyst</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-    <h1>Fabian Medina</h1>
+<header class="header">
 
-    <h2>Data Analyst | Business Intelligence | Power BI</h2>
+    <img src="assets/images/Logo4.png" class="logo">
 
-    <p>
-        Telecom Engineer specialized in Data Analytics,
-        Business Intelligence and Data Visualization.
-    </p>
 
-    <h2>Skills</h2>
+    <!-- =========================
+         MENU
+    ========================== -->
 
-    <p>
-        Power BI · SQL · Python · DAX · Power Query ·
-        Data Modeling
-    </p>
+    <nav class="menu">
+
+        <!-- ABOUT ME -->
+
+        <div class="dropdown">
+
+            <a href="#about" class="dropdown-title">
+                About me ▾
+            </a>
+
+            <div class="dropdown-menu">
+
+                <a href="#who-i-am">
+                    Who I Am
+                </a>
+
+                <a href="#my-experience">
+                    My Experience
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECTS -->
+
+        <div class="dropdown">
+
+            <a href="#proyectos" class="dropdown-title">
+                Projects ▾
+            </a>
+
+            <div class="dropdown-menu">
+
+                <a href="#personal-projects">
+                    Personal Projects
+                </a>
+
+                <a href="#bootcamp-projects">
+                    Bootcamp Projects
+                </a>
+
+                <a href="#powerbi-tableau-projects">
+                    Power BI - Tableau Projects
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- TOOLS -->
+
+        <a href="#tools">
+            Tools
+        </a>
+
+
+        <!-- CONTACT -->
+
+        <a href="#contacto">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <!-- =========================
+         NAME
+    ========================== -->
+
+    <div class="header-text">
+
+        <h1>Fabián Medina</h1>
+
+        <p class="job-title">
+            Data Analyst
+        </p>
+
+    </div>
+
+</header>
+
+
+<section id="about">
+
+    <!-- =========================
+         ABOUT ME
+    ========================= -->
+
+    <div class="about-title">
+        <BR>
+        <span>ABOUT ME</span>
+    </div>
+
+
+    <!-- =========================
+         WHO I AM
+    ========================= -->
+
+<h2 class="about-section-title" id="who-i-am">Who I Am</h2>
+
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <p class="about-intro">
+                I’m a Data Analyst with a background in Telecommunications Engineering
+                and experience transforming data into clear insights that support better
+                business decisions.
+            </p>
+
+
+            <div class="about-block">
+
+                <h2>Data & Business Intelligence</h2>
+
+                <p>
+                    My main focus is <strong>data analysis, visualization, and business
+                    intelligence</strong>, using tools such as
+                    <strong class="tool">Power BI</strong>,
+                    <strong class="tool">SQL</strong>,
+                    <strong class="tool">Python</strong>,
+                    <strong class="tool">Excel</strong>, and
+                    <strong class="tool">Pandas</strong>
+                    to clean, analyze, and visualize data. I enjoy turning complex
+                    datasets into intuitive dashboards and actionable insights that
+                    help teams understand performance, identify opportunities, and
+                    solve problems.
+                </p>
+
+            </div>
+
+
+            <div class="about-block">
+
+                <h2>Project & Process Management</h2>
+
+                <p>
+                    I also have experience in <strong>project and process management</strong>,
+                    working with cross-functional teams, monitoring KPIs, managing
+                    requirements, and supporting continuous improvement initiatives.
+                    This combination allows me to approach data not only from a
+                    technical perspective, but also from a
+                    <strong>business and project-oriented mindset</strong>.
+                </p>
+
+            </div>
+
+
+            <div class="about-block">
+
+                <h2>Continuous Learning</h2>
+
+                <p>
+                    I’m constantly learning and looking for new challenges where I can
+                    combine <strong>data, technology, and business understanding</strong>
+                    to create solutions that generate real impact.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+            ABOUT IMAGE
+        ========================= -->
+
+        <div class="about-image">
+
+            <img src="assets/images/About image.png" alt="About Fabian">
+
+        </div>
+
+    </div>
+
+
+<!-- =========================
+     MY EXPERIENCE
+========================= -->
+
+<div class="about-video">
+
+<h2 class="about-section-title" id="my-experience">My Experience</h2>
+
+    <video class="video-cv" controls preload="metadata">
+        <source src="assets/videos/CV visual Fabian v2.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+    </video>
+
+</div>
+
+</section>
+
+<!--*-----------------------*
+*        PROYECTOS
+*-------------------------*-->
+
+<section id="proyectos">
+
+    <div class="about-title">
+        <BR>
+        <BR>
+        <span>PROJECTS</span>
+    </div>
+
+
+    <!-- =========================
+         PERSONAL PROJECTS
+    ========================== -->
+
+    <div class="project-category" id="personal-projects">
+
+        <h2>Personal Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Online Grocery Store -->
+            <div class="project-card">
+
+                <img src="assets/images/projects/TiendaAlimentos.png"
+                     alt="Online Grocery Store Analysis">
+
+                <h3>Online Grocery Store Analysis</h3>
+
+                <p>
+                    Data analysis of an online grocery store to identify
+                    purchasing patterns, top-selling products, and customer
+                    behavior.
+                </p>
+
+                <div class="project-tags">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+
+                <a href="https://github.com/fabiancms/Tienda_alimentos_online"
+                   target="_blank">
+                    Link project
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Network -->
+            <div class="project-card">
+
+                <img src="assets/images/projects/Telefonia.png"
+                     alt="Mobile Network Performance Analysis">
+
+                <h3>Mobile Network Performance Analysis</h3>
+
+                <p>
+                    Simulation of a mobile network using 100,000 call records
+                    from a company, generated with Python to analyze traffic,
+                    KPIs, network congestion and failures.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
+                    <span>Seaborn</span>
+                    <span>Power BI</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+
+                <a href="https://github.com/fabiancms/Telefonia-movil"
+                   target="_blank">
+                    Link project
+                </a>
+
+            </div>
+
+
+            <!-- Retail Sales -->
+            <div class="project-card">
+
+                <img src="assets/images/projects/Retail-Sales-Analytics.png"
+                     alt="Retail Sales Analytics">
+
+                <h3>Retail Sales Analytics</h3>
+
+                <p>
+                    Exploratory Data Analysis (EDA) of over 9,900 retail sales
+                    records to identify sales patterns, profitability,
+                    customer segments, regional performance, and temporal
+                    trends using Python.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+
+                <a href="https://github.com/fabiancms/Retail-Sales-Analytics"
+                   target="_blank">
+                    Link project
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         BOOTCAMP PROJECTS
+    ========================== -->
+
+    <div class="project-category" id="bootcamp-projects">
+        <BR>
+        <BR>
+        <BR>
+        <h2>Bootcamp Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- Call Center -->
+            <div class="project-card">
+
+                <img src="assets/images/projects/CallCenter.png"
+                     alt="Call Center Analysis">
+
+                <h3>Call Center Analysis</h3>
+
+                <p>
+                    Analysis of call center operators to identify inefficiencies
+                    in missed calls, waiting times, and overall call handling
+                    performance.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Matplotlib</span>
+                    <span>Tableau</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+
+                <a href="https://github.com/fabiancms/Operador-Teleco-Llamadas-telefonicas"
+                   target="_blank">
+                    Link project
+                </a>
+
+            </div>
+
+
+            <!-- Video Game -->
+            <div class="project-card">
+
+                <img src="assets/images/projects/TiendaVideojuegos.png"
+                     alt="Video Game Store Analysis">
+
+                <h3>Video Game Store Analysis</h3>
+
+                <p>
+                    Exploratory analysis of video game sales data to identify
+                    success patterns, popular genres, and the most profitable
+                    platforms.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Matplotlib</span>
+                    <span>Seaborn</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+
+                <a href="https://github.com/fabiancms/Tienda-videojuegos"
+                   target="_blank">
+                    Link project
+                </a>
+
+            </div>
+
+
+            <!-- Taxi -->
+            <div class="project-card">
+
+                <img src="assets/images/projects/ViajesTaxis.png"
+                     alt="Taxi Trips Analysis">
+
+                <h3>Taxi Trips Analysis</h3>
+
+                <p>
+                    Exploratory analysis of taxi trip data to identify demand
+                    patterns, peak activity hours, and the most frequently
+                    visited areas.
+                </p>
+
+                <div class="project-tags">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Excel - CSV</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+
+                <a href="https://github.com/fabiancms/Viajes-taxis"
+                   target="_blank">
+                    Link project
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         POWER BI & TABLEAU PROJECTS
+    ========================== -->
+
+    <div class="project-category" id="powerbi-tableau-projects">
+
+        <h2>Power BI & Tableau Projects</h2>
+
+        <div class="projects-container">
+
+            <!-- POWER BI -->
+            <div class="project-card">
+
+                <div class="project-media">
+
+                    <video class="project-video"
+                            controls
+                            preload="metadata">
+                        <source src="assets/videos/Video Telefonia.mp4"
+                                type="video/mp4">
+                        Tu navegador no soporta video.
+                    </video>
+
+                </div>
+
+                <h3>Telecommunications Performance Dashboard</h3>
+
+                <p>
+                    Interactive Power BI dashboard designed to analyze
+                    telecommunications performance, identify trends,
+                    and monitor key operational indicators.
+                </p>
+
+                <div class="project-tools">
+
+                    <span>Power BI</span>
+                    <span>DAX</span>
+                    <span>Power Query</span>
+                    <span>Data Modeling</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- TABLEAU -->
+            <div class="project-card">
+
+                <div class="project-media">
+
+                    <img src="assets/images/Dashboard Tableau.png"
+                        alt="Tableau Dashboard"
+                        class="project-image">
+
+                </div>
+
+                <h3>Tableau Data Visualization Dashboard</h3>
+
+                <p>
+                    Interactive Tableau dashboard focused on data
+                    visualization, trend analysis, and presenting
+                    business insights through intuitive visualizations.
+                </p>
+
+                <div class="project-tools">
+
+                    <span>Tableau</span>
+                    <span>Calculated Fields</span>
+                    <span>Parameters</span>
+                    <span>Filters</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-------------------------
+        Tools
+--------------------------->
+
+<section id="tools">
+
+    <div class="about-title">
+        <span>TOOLS</span>
+    </div>
+
+    <div class="tools-container">
+        <img src="assets/images/Herramientas.png"
+            alt="Herramientas de análisis de datos">
+    </div>
+</section>
+
+
+<!-------------------------
+        Contacto
+--------------------------->
+
+
+</section>
+<section id="contacto">
+<div class="contact-text">
+<h2>Contact</h2>
+
+<div class="contact-links">
+
+<a href="mailto:fabiancms@email.com" class="contact-item">
+<img src="assets/images/gmail.png" alt="Email">
+<span>fabiancms@gmail.com</span>
+</a>
+
+<a href="https://www.linkedin.com/in/fabianmedina-dataanalyst/" target="_blank" class="contact-item">
+<img src="assets/images/in.png" alt="LinkedIn">
+<span>fabianmedina-dataanalyst</span>
+</a>
+<a href="https://github.com/fabiancms" target="_blank" class="contact-item">
+<img src="assets/images/github.png" alt="GitHub">
+<span>fabiancms</span>
+</a>
+</div>
+</div>
+
+</section>
+
+<script>
+const videos = document.querySelectorAll('video');
+
+videos.forEach(video => {
+
+    // Volumen inicial al 40%
+    video.volume = 0.3;
+
+    // Pausar los demás videos cuando uno comienza
+    video.addEventListener('play', () => {
+        videos.forEach(otherVideo => {
+            if (otherVideo !== video) {
+                otherVideo.pause();
+            }
+        });
+    });
+
+});
+</script>
 
 </body>
 </html>
