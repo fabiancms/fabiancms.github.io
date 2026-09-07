@@ -751,8 +751,8 @@ section{
 
 .carousel-track img {
     display: block;
-    width: 260px;
-    height: 160px;
+    width: 600px;
+    height: 350px;
     object-fit: contain;
 
     background: #ffffff;
