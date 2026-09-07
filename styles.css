@@ -729,25 +729,13 @@ section{
 
 
 /* ==========================================
-   PERSONAL PROJECTS
-   ========================================== */
-
-.project-section-title {
-    text-align: center;
-    font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-
-/* ==========================================
    RETAIL CAROUSEL
 ========================================== */
 
 .retail-carousel {
-    width: 50%;
+    width: 55%;
     max-width: 900px;
-    margin: 0 auto 60px auto;
+    margin: 30px auto 50px auto;
     overflow: hidden;
     position: relative;
 }
@@ -755,28 +743,32 @@ section{
 .carousel-track {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     width: max-content;
-    animation: carouselMove 25s linear infinite;
+
+    animation: carouselMove 20s linear infinite;
 }
 
 .carousel-track img {
-    width: 600px;
-    height: 350px;
+    display: block;
+    width: 260px;
+    height: 160px;
     object-fit: contain;
-    border: 2px solid #000000;
+
     background: #ffffff;
-    flex-shrink: 0;
+    border: 2px solid #000000;
+
+    flex: 0 0 260px;
 }
 
 @keyframes carouselMove {
 
-    from {
+    0% {
         transform: translateX(0);
     }
 
-    to {
-        transform: translateX(calc(-50% - 8px));
+    100% {
+        transform: translateX(-50%);
     }
 
 }
